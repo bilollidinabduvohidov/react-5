@@ -1,3 +1,94 @@
+.navbar_catalog {
+  background: #333333;
+  padding: 10px 0px;
+  margin-bottom: 150px;
+}
+
+.nav_catalog_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav_catalog_img {
+  width: 150px;
+}
+
+.nav_catalog_link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 7px 14px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav_catalog_link:hover {
+  background: #b4b2b244;
+}
+
+.cotolog_data_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.cotolog_data_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #D6D6D6;
+  width: 150px;
+  padding: 5px 8px 10px 8px;
+  cursor: pointer;
+}
+
+.cotolog_data_item h3 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.fa-caret-down {
+  font-size: 20px;
+  color: #333333;
+}
+
+.cotolog_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.cotolog_box .cotolg_boxs {
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
