@@ -63,6 +63,7 @@ function Catalog() {
                 <li className="cotolog_data_item">
                     <h3>Бренд</h3>
                     <i class="fa-solid fa-caret-down"></i>
+                </li>
 
                 <li className="cotolog_data_item">
                     <h3>Цена</h3>
@@ -90,6 +91,54 @@ function Catalog() {
                 </li>
 
             </ul>
+            <div className="cotolog_box">
+                <div className="cotolg_boxs">
+                    <img src={catologFoto} alt="foto" />
+                    <h2>Подвеска</h2>
+                    <h1>Dolce & Gabanna</h1>
+                    <button>175 000 ₽</button>
+                </div>
+
+                <div className="cotolg_boxs">
+                    <img src={catologFoto} alt="foto" />
+                    <h2>Подвеска</h2>
+                    <h1>Dolce & Gabanna</h1>
+                    <button>175 000 ₽</button>
+                </div>
+
+                <div className="cotolg_boxs">
+                    <img src={catologFoto} alt="foto" />
+                    <h2>Подвеска</h2>
+                    <h1>Dolce & Gabanna</h1>
+                    <button>175 000 ₽</button>
+                </div>
+                <span className='catalog_border'></span>
+                <div className="cotolg_boxs">
+                    <img src={catologFoto} alt="foto" />
+                    <h2>Подвеска</h2>
+                    <h1>Dolce & Gabanna</h1>
+                    <button>175 000 ₽</button>
+                </div>
+
+                <div className="cotolg_boxs">
+                    <img src={catologFoto} alt="foto" />
+                    <h2>Подвеска</h2>
+                    <h1>Dolce & Gabanna</h1>
+                    <button>175 000 ₽</button>
+                </div>
+
+                <div className="cotolg_boxs">
+                    <img src={catologFoto} alt="foto" />
+                    <h2>Подвеска</h2>
+                    <h1>Dolce & Gabanna</h1>
+                    <button>175 000 ₽</button>
+                </div>
+            </div>
+            
+            <div className="cotalog_links">
+                <a className='catalog_link' href="#">покажите еще</a>
+            </div>
+
             <div className="catalog_title">
                 <div className="catalog_lorem">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis vel adipisci quasi consectetur commodi, accusantium sunt eaque praesentium fuga. Reiciendis aspernatur labore natus, nam perferendis repellendus suscipit adipisci inventore, doloribus excepturi dolor fuga vitae hic nulla! Nesciunt ipsam minima iure non adipisci, corrupti porro magnam at pariatur quis quod veniam!</p>
