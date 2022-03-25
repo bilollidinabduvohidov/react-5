@@ -7,7 +7,8 @@ import catalogIcon from "../images/Group.png"
 import catalogIcon2 from "../images/Group (1).png"
 import catalogIcon3 from "../images/Group (2).png"
 import catalogIcon4 from "../images/jewelry.png"
-import CatalogInput from './CatalogInput'
+import CatalogInput from './catalogs/CatalogInput.jsx'
+
 
 function Catalog() {
   return (
