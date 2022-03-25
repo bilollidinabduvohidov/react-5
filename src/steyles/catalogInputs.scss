@@ -1,0 +1,26 @@
+.catalog_inputs{
+    background: url('../images/Rectangle6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.catalog_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2{
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+    h1{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+    }
+}
