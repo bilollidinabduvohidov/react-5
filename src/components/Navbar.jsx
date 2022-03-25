@@ -2,6 +2,7 @@ import React from 'react'
 import '../steyles/navbar.scss'
 import navFoto from '../images/logo.png'
 import navfoto from '../images/loge2.png'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -23,7 +24,9 @@ function Navbar() {
                 </li>
 
                 <li className="nav_item">
-                    <img src={navFoto} alt="foto" className="nav_img" />
+                    <Link to="/">
+                       <img src={navFoto} alt="foto" className="nav_img" />
+                    </Link>
                 </li>
 
                 <li className="nav_item">
@@ -53,7 +56,9 @@ function Navbar() {
         <div className="container">
              <div className="main_box">
                  <h1>Долго, дорого, богато!</h1>
-                 <button>каталог изделий </button>
+                 <Link to="/Catlog">
+                   <button>каталог изделий </button>
+                 </Link>
              </div>
         </div>
     </main>
