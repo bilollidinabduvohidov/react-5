@@ -1,3 +1,95 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import "../steyles/catalog.scss"
+import navFoto from '../images/logo.png'
+import catologFoto from "../images/uzuk.png"
+import catalogIcon from "../images/Group.png"
+import catalogIcon2 from "../images/Group (1).png"
+import catalogIcon3 from "../images/Group (2).png"
+import catalogIcon4 from "../images/jewelry.png"
+import CatalogInput from './CatalogInput'
+
+function Catalog() {
+  return (
+    <>  
+      <nav className='navbar_catalog'>
+        <div className="container">
+            <ul className="nav_catalog_list">
+                <li className="nav_item">
+                    <a href="#" className="nav_catalog_link">Контрагентам</a>
+                </li>
+
+                <li className="nav_item">
+                    <a href="#" className="nav_catalog_link">Дизайнерам</a>
+                </li>
+
+                <li className="nav_item">
+                    <a href="#" className="nav_catalog_link">Вакансии</a>
+                </li>
+
+                <li className="nav_item">
+                    <Link to="/">
+                    <img src={navFoto} alt="foto" className="nav_catalog_img" />
+                    </Link>
+                </li>
+
+                <li className="nav_item">
+                    <a href="#" className="nav_catalog_link">
+                        <i class="fa-solid fa-magnifying-glass"></i> Поиск
+                    </a>
+                </li>
+
+                <li className="nav_item">
+                    <a href="#" className="nav_catalog_link">Вход/Регистрация</a>
+                </li>
+
+                <li className="nav_item">
+                    <a href="#" className="nav_catalog_link">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+
+                    <a href="#" className="nav_catalog_link">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section className='cotolog_section'> 
+        <div className="container">
+            <ul className="cotolog_data_list">
+                <li className="cotolog_data_item">
+                    <h3>Бренд</h3>
+                    <i class="fa-solid fa-caret-down"></i>
+
+                <li className="cotolog_data_item">
+                    <h3>Цена</h3>
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+
+                <li className="cotolog_data_item">
+                    <h3>Для кого</h3>
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+
+                <li className="cotolog_data_item">
+                    <h3>Коллекция </h3>
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+
+                <li className="cotolog_data_item">
+                    <h3>Сезон</h3>
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+
+                <li className="cotolog_data_item">
+                    <h3>Событие </h3>
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+
+            </ul>
             <div className="catalog_title">
                 <div className="catalog_lorem">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis vel adipisci quasi consectetur commodi, accusantium sunt eaque praesentium fuga. Reiciendis aspernatur labore natus, nam perferendis repellendus suscipit adipisci inventore, doloribus excepturi dolor fuga vitae hic nulla! Nesciunt ipsam minima iure non adipisci, corrupti porro magnam at pariatur quis quod veniam!</p>
@@ -26,3 +118,10 @@
                 </div>
             </div>
         </div>
+    </section>
+    <CatalogInput />
+  </>
+  )
+}
+
+export default Catalog
