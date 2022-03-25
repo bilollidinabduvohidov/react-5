@@ -49,6 +49,43 @@ function Navbar() {
             </ul>
         </div>
     </nav>
+    <main className='header_main'>
+        <div className="container">
+             <div className="main_box">
+                 <h1>Долго, дорого, богато!</h1>
+                 <button>каталог изделий </button>
+             </div>
+        </div>
+    </main>
+    <nav className="nav_images">
+      <div className="container">
+        <ul className="nav_images_list">
+            <li className="nav_images_item foto2">
+                <img src={navfoto} alt="" className="nav_images_photo" />
+            </li>
+
+            <li className="nav_images_item">
+                <img src={navfoto} alt="" className="nav_images_photo" />
+            </li>
+
+            <li className="nav_images_item">
+                <img src={navfoto} alt="" className="nav_images_photo" />
+            </li>
+
+            <li className="nav_images_item">
+                <img src={navfoto} alt="" className="nav_images_photo" />
+            </li>
+
+            <li className="nav_images_item">
+                <img src={navfoto} alt="" className="nav_images_photo" />
+            </li>
+
+            <li className="nav_images_item">
+                <img src={navfoto} alt="" className="nav_images_photo" />
+            </li>
+        </ul>
+      </div>
+    </nav>
   </header>
   )
 }
