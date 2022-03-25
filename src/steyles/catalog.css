@@ -1,0 +1,56 @@
+
+.cotalog_links .catalog_link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 3px 3px 10px 2px #33333349;
+          box-shadow: 3px 3px 10px 2px #33333349;
+}
+
+.catalog_title {
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.catalog_title .catalog_lorem {
+  position: relative;
+  width: 400px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), color-stop(82.29%, #f9f9f91a));
+  background: linear-gradient(180deg, #F9F9F9 0%, #f9f9f91a 82.29%);
+  color: #a09797;
+}
+
+.catalog_title .catalog_lorem h2 {
+  color: #333333;
+}
+
+.catalog_title .catalog_icones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 400px;
+}
+
+.catalog_title .catalog_icones .catalog_icone {
+  width: 150px;
+  padding: 10px;
+}
+
+.catalog_title .catalog_icones .catalog_icone img {
+  width: 50px;
+  margin-bottom: 8px;
+}
+
+.catalog_title .catalog_icones .catalog_icone h4 {
+  font-size: 14px;
+  color: #333333;
+  width: 50%;
+}
+/*# sourceMappingURL=catalog.css.map */
