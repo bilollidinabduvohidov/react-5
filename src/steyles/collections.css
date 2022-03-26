@@ -1,0 +1,91 @@
+.collection {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.box_border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.box_border h3 {
+  position: relative;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.box_border h3::before {
+  position: absolute;
+  content: "";
+  border: 3px solid #dc143c;
+  width: 15px;
+  height: 15px;
+  top: -1px;
+  left: -4%;
+}
+
+.box_border h1 {
+  font-size: 25px;
+  color: #333333;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.collection_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.collection_list .svadba {
+  background: #333333;
+  color: #fff;
+}
+
+.collection_list .svadba .svadbaa {
+  color: #fff;
+}
+
+.collection_list .collection_item {
+  position: relative;
+  border: 1px dashed #33333380;
+  padding: 5px 12px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-shadow: 4px 4px 7px 1px #a09e9e65;
+          box-shadow: 4px 4px 7px 1px #a09e9e65;
+}
+
+.collection_list .collection_item:hover {
+  background: #333333;
+}
+
+.collection_list .collection_item:hover a {
+  color: #fff;
+}
+
+.collection_list .collection_item a {
+  color: #333333;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*# sourceMappingURL=collections.css.map */
