@@ -169,7 +169,6 @@ function Catalog() {
             </div>
         </div>
     </section>
-    <CatalogInput />
   </>
   )
 }
