@@ -1,0 +1,48 @@
+.collection_galereya {
+  margin-bottom: 100px;
+}
+
+.collection_galerey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.collection_galerey .collection_photos {
+  width: 300px;
+}
+
+.collection_galerey .collection_photos img {
+  cursor: pointer;
+  width: 300px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.collection_galerey .collection_photos img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 4px 4px 15px 3px #00000078;
+          box-shadow: 4px 4px 15px 3px #00000078;
+}
+
+.collection_galerey .collection_photos h1 {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  bottom: 65px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=collectionOne.css.map */
