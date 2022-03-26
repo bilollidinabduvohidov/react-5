@@ -1,0 +1,57 @@
+.catalog_footer_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catalog_footer_box .catalog_foter_title {
+  width: 250px;
+}
+
+.catalog_footer_box .catalog_foter_title h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #333333;
+  border-bottom: 1px solid #333333;
+}
+
+.catalog_footer_box .catalog_foter_title h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #333333;
+}
+
+.catalog_footer_box .catalog_foter_title p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #333333;
+}
+
+.foter_list {
+  border-top: 3px solid #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.foter_list p {
+  font-size: 17px;
+  color: #333333;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=footer.css.map */
