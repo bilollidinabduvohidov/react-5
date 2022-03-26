@@ -1,9 +1,10 @@
 .catalog_inputs {
-  background: url("../images/Rectangle6.png");
+  background: url("../images/collection6.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 50px 0;
+  margin-bottom: 50px;
 }
 
 .catalog_box {
@@ -20,6 +21,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .catalog_box h2 {
@@ -46,5 +48,98 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  width: 500px;
+  margin: auto;
+}
+
+.catalog_input_box .catalog_input_title {
+  width: 200px;
+}
+
+.catalog_input_box .catalog_input_title h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.catalog_input_box .catalog_input_title h1 i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.fa-react {
+  -webkit-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+  animation-direction: alternate-reverse;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.catalog_input_border {
+  width: 250px;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.catalog_input_border .catalog_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  padding: 10px;
+}
+
+.catalog_input_border .catalog_input input {
+  border: 1px solid #D6D6D6;
+  width: 130px;
+  padding: 7px 10px;
+}
+
+.catalog_input_border .catalog_input .submit {
+  width: 80px;
+  background: #333333;
+  border: 1px solid #333333;
+  color: #fff;
 }
 /*# sourceMappingURL=catalogInputs.css.map */
