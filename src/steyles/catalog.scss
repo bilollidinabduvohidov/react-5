@@ -1,0 +1,161 @@
+.navbar_catalog{
+    background: #333333;
+    padding: 10px 0px;
+    margin-bottom: 150px;
+}
+
+.nav_catalog_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_catalog_img{
+    width: 150px;
+}
+
+.nav_catalog_link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 14px;
+    transition: .3s;
+}
+
+.nav_catalog_link:hover{
+    background: #b4b2b244;
+}
+
+.cotolog_data_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.cotolog_data_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #D6D6D6;
+    width: 150px;
+    padding: 5px 8px 10px 8px ;
+    cursor: pointer;
+    h3{
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: #333333;
+        font-weight: 400;
+    }
+}
+
+.fa-caret-down{
+    font-size: 20px;
+    color: #333333;
+}
+
+.cotolog_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    .cotolg_boxs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 350px;
+        margin-bottom: 30px;
+        img{
+            width: 250px;
+            margin-bottom: 15px;
+        }
+        h2{
+            font-size: 14px;
+            font-weight: 400;
+            color: #333333;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        h1{
+            font-size: 22px;
+            font-weight: 700;
+            font-family: 'Inter', sans-serif;
+            margin-bottom: 10px;
+        }
+        button{
+            cursor: pointer;
+            color: #fff;
+            background: #333333;
+            font-size: 15px;
+            padding: 7px 14px;
+            border: none;
+            transition: .3s;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 3px 3px 10px 2px #33333349;
+            }
+        }
+    }
+}
+.catalog_border{
+    width: 100%;
+    height: 2px;
+    background: #D6D6D6;
+    margin-bottom: 40px;
+}
+
+.cotalog_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
+    .catalog_link{
+        color: #fff;
+        background: #333333;
+        font-size: 16px;
+        padding: 7px 14px;
+        border: none;
+        transition: .3s;
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 3px 3px 10px 2px #33333349;
+        }
+    }
+}
+
+.catalog_title{
+    margin-bottom: 100px;
+    display: flex;
+    position: relative;
+    justify-content:space-evenly;
+    .catalog_lorem{
+        position: relative;
+        width: 400px;
+        background: linear-gradient(180deg, #F9F9F9 0%, #f9f9f91a 82.29%);
+        color: #a09797;
+        h2{
+            color: #333333;
+        }
+    }
+    .catalog_icones{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        .catalog_icone{
+            width: 150px;
+            padding: 10px;
+            img{
+                width: 50px;
+                margin-bottom: 8px;
+            }
+            h4{
+                font-size: 14px;
+                color: #333333;
+                width: 50%;
+            }
+        }
+    }
+}
