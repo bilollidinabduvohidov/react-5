@@ -1,0 +1,27 @@
+.collection_muruskoy{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .collection_muruskoy{
+        cursor: pointer;
+        width: 300px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        // border-bottom-left-radius: 55px;
+        transition: 1s;
+        &:hover{ 
+            transform: rotate(360deg);
+            // box-shadow: 4px 4px 15px 3px #00000078;
+        }
+        h1{
+            text-align: center;
+            color: #000;
+            position: relative;
+            bottom: 60px;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+    }
+}
