@@ -1,0 +1,37 @@
+.collection_muruskoy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.collection_muruskoy .collection_muruskoy {
+  cursor: pointer;
+  width: 300px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.collection_muruskoy .collection_muruskoy:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.collection_muruskoy .collection_muruskoy h1 {
+  text-align: center;
+  color: #000;
+  position: relative;
+  bottom: 60px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=collectionTwo.css.map */
