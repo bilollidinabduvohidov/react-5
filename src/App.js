@@ -1,12 +1,13 @@
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar.jsx';
 import Catalog from './components/Catalog';
-import CatalogFoter from './components/catalogs/CatalogFoter';
-import Collections from './components/Collections';
-import CollectionOne from './components/CollectionOne';
-import CollectionTwo from './components/CollectionTwo';
-import CatalogInput from './components/catalogs/CatalogInput';
+import CatalogFoter from './components/catalogs/CatalogFoter.jsx';
+import Collections from './components/Collections.jsx';
+import CollectionOne from './components/CollectionOne.jsx';
+import CollectionTwo from './components/CollectionTwo.jsx';
+import CatalogInput from './components/catalogs/CatalogInput.jsx';
+
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/" component={CollectionOne} />
           <Route path="/mujskoy" component={CollectionTwo} />
         </Switch>
+
         <CatalogInput />
         <CatalogFoter />
       </div>

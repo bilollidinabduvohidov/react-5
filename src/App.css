@@ -17,6 +17,9 @@ a{
 img{
   width: 100%;
 }
+input{
+  outline: none;
+}
 
 body{
   font-family: 'Noto Serif', serif;
