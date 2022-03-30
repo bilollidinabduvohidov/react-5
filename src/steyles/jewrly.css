@@ -1,0 +1,323 @@
+.jewerly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.jewerly_smile_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.jewerly_smile_box h2 {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #333333;
+  margin-bottom: 11px;
+}
+
+.jewerly_smile_box h1 {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.jewerly_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1150px;
+  height: 700px;
+}
+
+.jewerly_box img {
+  width: 323px;
+  height: 350px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.jewerly_box img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.jewerly_box .width {
+  height: 350px;
+  width: 502px;
+}
+
+.jewerly_box .hight {
+  height: 350px;
+  width: 502px;
+}
+
+.jewerly_box .left {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  bottom: 80%;
+  right: 25%;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.jewerly_box .right {
+  -webkit-transform: none;
+          transform: none;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  bottom: 30%;
+  left: 25%;
+}
+
+@media (max-width: 1020px) {
+  .container {
+    width: 900px;
+  }
+  .jewerly .container {
+    position: relative;
+    left: 100px;
+  }
+  .jewerly_box {
+    position: relative;
+    left: 50px;
+  }
+  .jewerly_box {
+    width: 800px;
+    height: 1000px;
+  }
+  .jewerly_box img {
+    width: 200px;
+    height: 200px;
+  }
+  .jewerly_box .width {
+    height: 400px;
+    width: 800px;
+  }
+  .jewerly_box .hight {
+    height: 400px;
+    width: 800px;
+  }
+  .left, .right {
+    display: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .container {
+    width: 800px;
+  }
+  .jewerly .container {
+    position: relative;
+    left: 190px;
+  }
+  .jewerly_box {
+    position: relative;
+    left: 1px;
+  }
+  .jewerly_box {
+    width: 800px;
+    height: 1000px;
+  }
+  .jewerly_box img {
+    width: 200px;
+    height: 200px;
+  }
+  .jewerly_box .width {
+    height: 400px;
+    width: 800px;
+  }
+  .jewerly_box .hight {
+    height: 400px;
+    width: 800px;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    width: 700px;
+  }
+  .jewerly .container {
+    position: relative;
+    left: 250px;
+  }
+  .jewerly_box {
+    position: relative;
+    left: -50px;
+  }
+  .jewerly_box {
+    width: 800px;
+    height: 1000px;
+  }
+  .jewerly_box img {
+    width: 200px;
+    height: 200px;
+  }
+  .jewerly_box .width {
+    height: 400px;
+    width: 800px;
+  }
+  .jewerly_box .hight {
+    height: 400px;
+    width: 800px;
+  }
+  .left, .right {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+  .jewerly .container {
+    position: relative;
+    left: 300px;
+  }
+  .jewerly_box {
+    position: relative;
+    left: -110px;
+  }
+  .jewerly_box {
+    width: 800px;
+    height: 1000px;
+  }
+  .jewerly_box img {
+    width: 200px;
+    height: 200px;
+  }
+  .jewerly_box .width {
+    height: 400px;
+    width: 800px;
+  }
+  .jewerly_box .hight {
+    height: 400px;
+    width: 800px;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 500px;
+  }
+  .jewerly .container {
+    position: relative;
+    left: 340px;
+  }
+  .jewerly_box {
+    position: relative;
+    left: -160px;
+  }
+  .jewerly_box {
+    width: 800px;
+    height: 1000px;
+  }
+  .jewerly_box img {
+    width: 200px;
+    height: 200px;
+  }
+  .jewerly_box .width {
+    height: 400px;
+    width: 800px;
+  }
+  .jewerly_box .hight {
+    height: 400px;
+    width: 800px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+  .jewerly .container {
+    position: relative;
+    left: 400px;
+  }
+  .jewerly_box {
+    position: relative;
+    left: -200px;
+  }
+  .jewerly_box {
+    width: 800px;
+    height: 1000px;
+  }
+  .jewerly_box img {
+    width: 200px;
+    height: 200px;
+  }
+  .jewerly_box .width {
+    height: 400px;
+    width: 800px;
+  }
+  .jewerly_box .hight {
+    height: 400px;
+    width: 800px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+  }
+  .jewerly .container {
+    position: relative;
+    left: 440px;
+  }
+  .jewerly_box {
+    position: relative;
+    left: -220px;
+  }
+  .jewerly_box {
+    width: 800px;
+    height: 1000px;
+  }
+  .jewerly_box img {
+    width: 200px;
+    height: 200px;
+  }
+  .jewerly_box .width {
+    height: 400px;
+    width: 800px;
+  }
+  .jewerly_box .hight {
+    height: 400px;
+    width: 800px;
+  }
+}
+/*# sourceMappingURL=jewrly.css.map */
