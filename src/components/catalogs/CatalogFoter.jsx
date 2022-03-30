@@ -1,5 +1,8 @@
 import React from 'react'
 import "../../steyles/footer.scss"
+import FoterPhoto from "../../images/visa.png"
+import FoterPhoto2 from "../../images/masterCard.png"
+
 
 function CatalogFoter() {
   return (
@@ -19,22 +22,31 @@ function CatalogFoter() {
               <h1>оплата</h1>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing  culpa non dolore vero saepe ipsum</p>
               <br />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <span className='footer_box_span'>
+                  <img className='foter_photo' src={FoterPhoto} alt="" />
+                  <img className='foter_photo' src={FoterPhoto2} alt="" />
+              </span>
             </div>
 
 
             <div className="catalog_foter_title">
               <h1>контакты</h1>
-              <h3><i class="fa-solid fa-phone-rotary"></i> 8 (812) 234-56-55</h3>
-              <h3><i class="fa-solid fa-phone-rotary"></i> 8 (812) 234-56-55</h3>
-              <h3><i class="fa-solid fa-message-dots"></i> ojjo@ojjo.ru</h3>
+              <h3> <i class="fa-solid fa-phone"></i> 8 (812) 234-56-55</h3>
+              <h3><i class="fa-solid fa-phone"></i> 8 (812) 234-56-55</h3>
+              <h3><i class="fa-solid fa-phone"></i> ojjo@ojjo.ru</h3>
             </div>
 
             <div className="catalog_foter_title">
               <h1>социальные сети</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper</p>
               <br />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <span className="footer_icones">
+               <i class="fa-brands fa-youtube"></i>
+               <i class="fa-brands fa-whatsapp-square"></i>
+               <i class="fa-brands fa-facebook-f"></i>
+               <i class="fa-brands fa-telegram"></i>
+               <i class="fa-thin fa-e"></i>
+              </span>
             </div>
 
           </div>  
