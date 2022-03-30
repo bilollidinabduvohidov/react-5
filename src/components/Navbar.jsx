@@ -1,16 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../steyles/navbar.scss'
 import navFoto from '../images/logo.png'
 import navfoto from '../images/loge2.png'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
+    const [isMobil, setIsMobil] = useState(false)
   return (
   <header>
 
     <nav className='navbar'>
         <div className="container">
-            <ul className="nav_list">
+            <img className='nav-block' src={navFoto} alt="" />
+            <ul className={isMobil ? "nav-list-mobile" : "nav_list"}
+            onClick={() => setIsMobil(false)}
+            >
                 <li className="nav_item">
                     <a href="#" className="nav_link">Контрагентам</a>
                 </li>
@@ -23,7 +27,7 @@ function Navbar() {
                     <a href="#" className="nav_link">Вакансии</a>
                 </li>
 
-                <li className="nav_item">
+                <li className="nav_item liNone">
                     <Link to="/">
                        <img src={navFoto} alt="foto" className="nav_img" />
                     </Link>
@@ -50,7 +54,16 @@ function Navbar() {
                 </li>
 
             </ul>
+
+            <button className='mobile-menu-icon'
+            onClick={() => setIsMobil(!isMobil)}
+            >
+            {isMobil ?<i className='fas fa-times'></i> : <i className='fas fa-bars'></i>}
+            
+            </button>
+
         </div>
+        
     </nav>
     <main className='header_main'>
         <div className="container">

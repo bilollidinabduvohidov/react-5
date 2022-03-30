@@ -3,6 +3,7 @@ import "../steyles/collections.scss"
 import { Link } from 'react-router-dom'
 
 function Collections() {
+    
   return (
   <>
     <section className="collection">
