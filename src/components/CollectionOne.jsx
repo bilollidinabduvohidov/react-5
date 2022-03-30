@@ -6,6 +6,9 @@ import CollectionPhoto2 from "../images/collection2.png"
 import CollectionPhoto3 from "../images/collection3.png"
 import CollectionPhoto4 from "../images/collection4.png"
 import CollectionPhoto5 from "../images/collection5.png"
+import Black from './Black'
+import Ojje from './Ojje'
+import Jewerly from './Jewerly'
 
 
 function CollectionOne() {
@@ -46,6 +49,9 @@ function CollectionOne() {
         </div>
       </div>
     </section>
+    <Black />
+    <Ojje />
+    <Jewerly />
   </>
   )
 }
