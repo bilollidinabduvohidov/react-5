@@ -31,9 +31,9 @@ function CatalogFoter() {
 
             <div className="catalog_foter_title">
               <h1>контакты</h1>
-              <h3> <i class="fa-solid fa-phone"></i> 8 (812) 234-56-55</h3>
-              <h3><i class="fa-solid fa-phone"></i> 8 (812) 234-56-55</h3>
-              <h3><i class="fa-solid fa-phone"></i> ojjo@ojjo.ru</h3>
+              <h3> <i className="fa-solid fa-phone"></i> 8 (812) 234-56-55</h3>
+              <h3><i className="fa-solid fa-phone"></i> 8 (812) 234-56-55</h3>
+              <h3><i className="fa-solid fa-phone"></i> ojjo@ojjo.ru</h3>
             </div>
 
             <div className="catalog_foter_title">
@@ -41,11 +41,11 @@ function CatalogFoter() {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper</p>
               <br />
               <span className="footer_icones">
-               <i class="fa-brands fa-youtube"></i>
-               <i class="fa-brands fa-whatsapp-square"></i>
-               <i class="fa-brands fa-facebook-f"></i>
-               <i class="fa-brands fa-telegram"></i>
-               <i class="fa-thin fa-e"></i>
+               <i className="fa-brands fa-youtube"></i>
+               <i className="fa-brands fa-whatsapp-square"></i>
+               <i className="fa-brands fa-facebook-f"></i>
+               <i className="fa-brands fa-telegram"></i>
+               <i className="fa-thin fa-e"></i>
               </span>
             </div>
 

@@ -13,15 +13,15 @@ function CatalogInput() {
             <div className="catalog_input_box">
                 <div className="catalog_input_title">
                     <h1>
-                    <i class="fa-brands fa-react"></i> Личный менеджер
+                    <i className="fa-brands fa-react"></i> Личный менеджер
                     </h1> 
 
                     <h1>
-                    <i class="fa-brands fa-react"></i> Личный менеджер
+                    <i className="fa-brands fa-react"></i> Личный менеджер
                     </h1> 
 
                     <h1>
-                    <i class="fa-brands fa-react"></i> Личный менеджер
+                    <i className="fa-brands fa-react"></i> Личный менеджер
                     </h1> 
 
                 </div>
