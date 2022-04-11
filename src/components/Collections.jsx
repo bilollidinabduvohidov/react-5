@@ -16,13 +16,13 @@ function Collections() {
                 <ul className="collection_list">
                     <li className="collection_item svadba">
                         <Link to="/">
-                            <a className='svadbaa' href="#">Свадьба</a>
+                            <p className='svadbaa'>Свадьба</p>
                         </Link>
                     </li>
 
                     <li className="collection_item">
                         <Link to="/mujskoy">
-                            <a href="#">МУЖУ</a>
+                            <p>МУЖУ</p>
                         </Link>
                         
                     </li>
@@ -41,7 +41,7 @@ function Collections() {
                     
                     <li className="collection_item">
                         <Link to="/">
-                            <a href="#">редкость</a>
+                            <a>редкость</a>
                         </Link>
                     </li>
                 </ul>

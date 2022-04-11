@@ -6,8 +6,8 @@ import MurskoyFot3 from "../images/muruskoy3.jpeg"
 import MurskoyFot4 from "../images/muruskoy4.jpeg"
 import MurskoyFot5 from "../images/muruskoy5.jpeg"
 import MurskoyFot6 from "../images/muruskoy6.jpg"
-import Navbar from './Navbar'
-import Collections from './Collections'
+import Navbar from './Navbar.jsx'
+import Collections from './Collections.jsx'
 
 
 
