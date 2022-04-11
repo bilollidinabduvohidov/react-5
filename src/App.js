@@ -7,6 +7,9 @@ import Collections from './components/Collections.jsx';
 import CollectionOne from './components/CollectionOne.jsx';
 import CollectionTwo from './components/CollectionTwo.jsx';
 import CatalogInput from './components/catalogs/CatalogInput.jsx';
+import Dolce from './components/Dolce.jsx';
+import Location from './components/Location.jsx';
+import Registion from "./components/Registion.jsx"
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={Navbar} />
           <Route path="/Catlog" component={Catalog} />
+          <Route path="/Dolce" component={Dolce} />
+          <Route path="/Location" component={Location} />
+          <Route path="/Registion" component={Registion} />
         </Switch>
         
         <Switch>
