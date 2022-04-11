@@ -125,7 +125,7 @@
   margin-bottom: 10px;
 }
 
-.cotolog_box .cotolg_boxs button {
+.cotolog_box .cotolg_boxs .button {
   cursor: pointer;
   color: #fff;
   background: #333333;
@@ -136,7 +136,7 @@
   transition: .3s;
 }
 
-.cotolog_box .cotolg_boxs button:hover {
+.cotolog_box .cotolg_boxs .button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-box-shadow: 3px 3px 10px 2px #33333349;
