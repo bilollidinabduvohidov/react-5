@@ -35,21 +35,23 @@ function Navbar() {
 
                 <li className="nav_item">
                     <a href="#" className="nav_link">
-                        <i class="fa-solid fa-magnifying-glass"></i> Поиск
+                        <i className="fa-solid fa-magnifying-glass"></i> Поиск
                     </a>
                 </li>
 
                 <li className="nav_item">
-                    <a href="#" className="nav_link">Вход/Регистрация</a>
+                    <Link to="/Registion" className="nav_link">
+                        Вход/Регистрация
+                    </Link>
                 </li>
 
                 <li className="nav_item">
                     <a href="#" className="nav_link">
-                        <i class="fa-solid fa-user"></i>
+                        <i className="fa-solid fa-user"></i>
                     </a>
 
                     <a href="#" className="nav_link">
-                        <i class="fa-solid fa-heart"></i>
+                        <i className="fa-solid fa-heart"></i>
                     </a>
                 </li>
 
