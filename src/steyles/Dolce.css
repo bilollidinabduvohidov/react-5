@@ -1,0 +1,97 @@
+.main4_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.main4_li {
+  padding: 10px;
+  border-bottom: 1px solid transparent;
+  margin: 5px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.main4_li:hover {
+  border-bottom: #444 1px solid;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.main4_img {
+  width: 540px;
+  height: 580px;
+}
+
+.main_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.main4_box_ {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.main4_textt {
+  color: #333333;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+.main4_text_litle {
+  color: #333333c0;
+}
+
+.main4_text__ {
+  color: #333333c0;
+  margin-top: 20px;
+}
+
+.box_main4 {
+  margin-top: 30px;
+}
+
+.main4_link {
+  color: white;
+  background-color: #333333;
+  padding: 10px 25px;
+  font-weight: bold;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.main4_link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.main4_link_ {
+  margin-left: 50px;
+  color: #333333;
+  border: 1px #333333 solid;
+  padding: 10px 25px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.main4_link_:hover {
+  background: #333333;
+  color: #fff;
+  border: 1px black solid;
+}
+
+.li {
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=Dolce.css.map */
